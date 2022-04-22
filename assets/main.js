@@ -22,37 +22,56 @@ const questions = [
 
     {
         type: "input",
-        message: "Enter the required installation instructions for your application",
+        message: "Enter the instructions required to install your application. Provide a step-by-step description of how to get the development environment running. ",
         name: "install"
     },
 
     {
         type: "input",
-        message: "Enter project use instructions:",
+        message: "Enter instructions and examples for your application's use:",
         name: "usage"
     },
 
     {
         type: "input",
-        message: "List all Contributing Authors",
+        message: "List the features of your application:",
+        name: "features"
+    },
+
+    {
+        type: "input",
+        message: "List all Contributing Authors with links to their GitHub profiles.",
         name: "credits"
+    },
+
+    {
+        type: "input",
+        message: "Write the tests for your application with examples on how to run them.",
+        name: "tests"
     },
 
     {
         type: "list",
         message: "Select a License from the list",
         name: "license",
-        choices: ["Apache", "GNU", "MIT"]
+        choices: ["Apache-2.0", "GNU-v3.0", "MIT"]
     },
     
     {
         type: "input",
         message: "Enter your GitHub username",
         name: "github"
+    },
+
+    {
+        type: "input",
+        message: "Enter your contact email and further instructions to contact you",
+        name: "email"
     }
+
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(data) {
     fs.writeFile('../dist/readme.md', data, function(err) {
         if(err) {
@@ -63,7 +82,7 @@ function writeToFile(data) {
     })
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     inquirer
     .prompt(questions)
