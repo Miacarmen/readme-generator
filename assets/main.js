@@ -20,19 +20,19 @@ const questions = [
   {
     type: "input",
     message:
-      "Enter the instructions required to install your application. Provide a step-by-step description of how to get the development environment running. ",
+      "Enter the instructions required to install your application and provide a step-by-step description of how to get the development environment running",
     name: "install",
   },
 
   {
     type: "input",
-    message: "Enter instructions and examples for your application's use:",
+    message: "Enter usage instructions and examples for your application",
     name: "usage",
   },
 
   {
     type: "input",
-    message: "List the features of your application:",
+    message: "List the features of your application",
     name: "features",
   },
 
@@ -45,13 +45,13 @@ const questions = [
   {
     type: "input",
     message:
-      "Write the tests for your application with examples on how to run them.",
+      "Write the tests for your application with examples on how to run them",
     name: "tests",
   },
 
   {
     type: "list",
-    message: "Select a License from the list",
+    message: "Select a License from the following list:",
     name: "license",
     choices: ["Apache-2.0", "GPL-v3.0", "MIT"],
   },
@@ -64,7 +64,7 @@ const questions = [
 
   {
     type: "input",
-    message: "Enter your contact email and further instructions to contact you",
+    message: "Enter your contact email and/or further instructions on how to contact you if a user has questions",
     name: "email",
   },
 ];
@@ -89,6 +89,5 @@ function init() {
     writeToFile(data);
   });
 }
-
 // Function call to initialize app
 init();
