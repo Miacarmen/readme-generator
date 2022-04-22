@@ -15,17 +15,17 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-// function renderLicenseLink(license) {
-//   if (license === "Apache-2.0") {
-//     license = ![license](img.shields.io/badge/License-Apache%202.0-blue.svg)
-//   } else if (license === "GNU GPL-v3.0") {
-//     license = ![license](img.shields.io/badge/License-GPL%20v3-blue.svg);
-//   } else if (license === "MIT") {
-//     return
-//   } else {
-//     return ``;
-//   }
-// }
+function renderLicenseLink(license) {
+  if (license === "Apache-2.0") {
+    return '[Apache-2.0 License Link](https://choosealicense.com/licenses/apache-2.0/)';
+  } else if (license === "GPL-v3.0") {
+    return '[GPL-v3.0 License Link](https://choosealicense.com/licenses/gpl-3.0/)';
+  } else if (license === "MIT") {
+    return '[MIT License Link](https://choosealicense.com/licenses/mit/)';
+  } else {
+    return ``;
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // User chooses license from a list of options, then it's displayed
@@ -107,7 +107,7 @@ ${data.tests}
 
 ## License
 
-
+${renderLicenseLink(data.license)}
 
 
 ## Badges
@@ -117,11 +117,8 @@ ${renderLicenseBadge(data.license)}
 
 ### Questions
 
-Have more questions about this application? Contact me on GitHub or send an email to ${
-    data.email
-  }.
-
-
+Have more questions about this application? Contact me on GitHub or send an email to 
+${data.email}.
 
 
   `;
