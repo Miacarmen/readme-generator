@@ -4,10 +4,18 @@ This application saves you time by generating a customized README markdown for y
 
 ## Table of Contents (Optional)
 
+- [Tools](#tools)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [Credits](#credits)
-- [GitHub Link](#github)
+- [License](#license)
+
+## Tools
+
+* [CLI](https://en.wikipedia.org/wiki/Command-line_interface)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 
 ## Installation
 
@@ -34,14 +42,21 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 ![alt text](assets/images/screenshot.png)
 ```
 
+## Demo
+
+
+
 ## Credits
 
-This application was developed by Mia Carmen
+This application was developed by **Mia Carmen**
 Find me on [GitHub](https://github.com/Miacarmen) 
+or [LinkedIn](https://www.linkedin.com/in/mia-carmen-7750a6b8/)
 
-## License
 
-MIT License
+## License 
+
+This project is licensed under the MIT License 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
 

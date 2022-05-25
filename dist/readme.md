@@ -1,9 +1,9 @@
-# a
+# Team Profile Generator
 
 
 ## Description 
 
-a
+Description
 
 
 
@@ -22,35 +22,35 @@ a
 
 ## Installation
 
-a
+npm install
 
 
 ## Usage 
 
-a
+usage
 
 
 ## Features
 
-a
+features
 
 
 ## Credits
 
-a
+me
 
-Link to GitHub [a](https://github.com/a)
+Link to GitHub [miacarmen](https://github.com/miacarmen)
 
 
 ## Tests
 
-a
+test
 
 
 
 ## License
 
-
+[MIT License Link](https://choosealicense.com/licenses/mit/)
 
 
 ## Badges
@@ -60,9 +60,8 @@ a
 
 ### Questions
 
-Have more questions about this application? Contact me on GitHub or send an email to a.
-
-
+Have more questions about this application? Contact me on GitHub or send an email to 
+email.
 
 
   
