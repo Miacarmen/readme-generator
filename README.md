@@ -44,7 +44,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Demo
 
-
+[Demo Video](https://loom.com/share/beb2daba3eb3425e8d06f87c59bf98f4)
 
 ## Credits
 

@@ -1,9 +1,9 @@
-# Team Profile Generator
+# A title
 
 
 ## Description 
 
-Description
+Does some cool things, solves some problems
 
 
 
@@ -22,29 +22,29 @@ Description
 
 ## Installation
 
-npm install
+1. wake up 2. pet the cat 3. drink coffee
 
 
 ## Usage 
 
-usage
+use to do x y and z
 
 
 ## Features
 
-features
+features this and that
 
 
 ## Credits
 
-me
+me myself and i
 
 Link to GitHub [miacarmen](https://github.com/miacarmen)
 
 
 ## Tests
 
-test
+testing 1 2 3
 
 
 
@@ -61,7 +61,7 @@ test
 ### Questions
 
 Have more questions about this application? Contact me on GitHub or send an email to 
-email.
+miacarmen@gmail.com.
 
 
   
